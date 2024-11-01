@@ -26,6 +26,7 @@
 		FFC45EFB2CD4C3A10063FD90 /* Extentsion.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC45EFA2CD4C39B0063FD90 /* Extentsion.swift */; };
 		FFC45EFD2CD4C3BE0063FD90 /* AceFusionCustomCornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC45EFC2CD4C3BD0063FD90 /* AceFusionCustomCornerView.swift */; };
 		FFC45EFF2CD4CA0C0063FD90 /* AceFusionPolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC45EFE2CD4CA0C0063FD90 /* AceFusionPolicyViewController.swift */; };
+		FFC45F022CD4CDB30063FD90 /* UIViewController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC45F012CD4CDB30063FD90 /* UIViewController+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,9 @@
 		FFC45EFA2CD4C39B0063FD90 /* Extentsion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentsion.swift; sourceTree = "<group>"; };
 		FFC45EFC2CD4C3BD0063FD90 /* AceFusionCustomCornerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AceFusionCustomCornerView.swift; sourceTree = "<group>"; };
 		FFC45EFE2CD4CA0C0063FD90 /* AceFusionPolicyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AceFusionPolicyViewController.swift; sourceTree = "<group>"; };
+		FFC45F002CD4CDB30063FD90 /* UIViewController+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Extension.h"; sourceTree = "<group>"; };
+		FFC45F012CD4CDB30063FD90 /* UIViewController+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Extension.m"; sourceTree = "<group>"; };
+		FFC45F032CD4CDB40063FD90 /* AceFusion-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AceFusion-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +109,11 @@
 			isa = PBXGroup;
 			children = (
 				FFC45ED72CD4C16B0063FD90 /* AppDelegate.swift */,
+				FFC45EDE2CD4C16B0063FD90 /* SceneDelegate.swift */,
 				FFC45ED82CD4C16B0063FD90 /* Assets.xcassets */,
 				FFC45ED92CD4C16B0063FD90 /* Info.plist */,
 				FFC45EDB2CD4C16B0063FD90 /* LaunchScreen.storyboard */,
 				FFC45EDD2CD4C16B0063FD90 /* Main.storyboard */,
-				FFC45EDE2CD4C16B0063FD90 /* SceneDelegate.swift */,
 				FFC45EDF2CD4C16B0063FD90 /* AceFusionHomeViewController.swift */,
 				FFC45EFE2CD4CA0C0063FD90 /* AceFusionPolicyViewController.swift */,
 				FFC45EEA2CD4C2FF0063FD90 /* AceFusionBigCardViewController.swift */,
@@ -123,6 +127,9 @@
 				FFC45EF82CD4C38E0063FD90 /* Untitled.swift */,
 				FFC45EFA2CD4C39B0063FD90 /* Extentsion.swift */,
 				FFC45EFC2CD4C3BD0063FD90 /* AceFusionCustomCornerView.swift */,
+				FFC45F002CD4CDB30063FD90 /* UIViewController+Extension.h */,
+				FFC45F012CD4CDB30063FD90 /* UIViewController+Extension.m */,
+				FFC45F032CD4CDB40063FD90 /* AceFusion-Bridging-Header.h */,
 			);
 			path = AceFusion;
 			sourceTree = "<group>";
@@ -138,6 +145,7 @@
 				FFC45EBB2CD4C1540063FD90 /* Sources */,
 				FFC45EBC2CD4C1540063FD90 /* Frameworks */,
 				FFC45EBD2CD4C1540063FD90 /* Resources */,
+				F7B1C7A6BA74B10AF9CA7A91 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +168,7 @@
 				TargetAttributes = {
 					FFC45EBE2CD4C1540063FD90 = {
 						CreatedOnToolsVersion = 16.0;
+						LastSwiftMigration = 1600;
 					};
 				};
 			};
@@ -217,6 +226,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F7B1C7A6BA74B10AF9CA7A91 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AceFusion/Pods-AceFusion-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AceFusion/Pods-AceFusion-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AceFusion/Pods-AceFusion-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -236,6 +262,7 @@
 				FFC45EFF2CD4CA0C0063FD90 /* AceFusionPolicyViewController.swift in Sources */,
 				FFC45EF52CD4C3630063FD90 /* AceFusionSelectViewController.swift in Sources */,
 				FFC45EF32CD4C34E0063FD90 /* AceFusionRateViewController.swift in Sources */,
+				FFC45F022CD4CDB30063FD90 /* UIViewController+Extension.m in Sources */,
 				FFC45EE72CD4C16B0063FD90 /* AceFusionHomeViewController.swift in Sources */,
 				FFC45EF12CD4C33C0063FD90 /* AceFusionFeedbackViewController.swift in Sources */,
 				FFC45EEB2CD4C3000063FD90 /* AceFusionBigCardViewController.swift in Sources */,
@@ -270,11 +297,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AceFusion/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Ace Fusion";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Ace Fusion needs access to obtain your device information for analysis and to bring you a unique gaming experience.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -286,11 +316,13 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.AceFusion;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Card.AceFusion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "AceFusion/AceFusion-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -302,11 +334,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AceFusion/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Ace Fusion";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Ace Fusion needs access to obtain your device information for analysis and to bring you a unique gaming experience.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -318,11 +353,12 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.AceFusion;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Card.AceFusion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "AceFusion/AceFusion-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

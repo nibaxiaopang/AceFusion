@@ -6,5 +6,6 @@ target 'AceFusion' do
   use_frameworks!
 
   # Pods for AceFusion
-
+  pod 'Adjust', '4.38.4'
+  pod 'ReachabilitySwift'
 end

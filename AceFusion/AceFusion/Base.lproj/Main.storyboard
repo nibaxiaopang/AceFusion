@@ -595,6 +595,9 @@ Feel free to adjust this if you’d like to include more details about your team
                                 </constraints>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" image="back"/>
+                                <connections>
+                                    <action selector="btnBack:" destination="jlV-97-czD" eventType="touchUpInside" id="8NH-yJ-q2b"/>
+                                </connections>
                             </button>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="RIs-W3-RKU">
                                 <rect key="frame" x="416" y="186.66666666666666" width="20" height="20"/>
@@ -614,6 +617,11 @@ Feel free to adjust this if you’d like to include more details about your team
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="biu-LH-0XO"/>
+                    <connections>
+                        <outlet property="aceBackBtn" destination="Ihp-i2-kQI" id="9Fa-Yb-2RR"/>
+                        <outlet property="aceIndView" destination="RIs-W3-RKU" id="QKP-fp-LTc"/>
+                        <outlet property="aceWebView" destination="HGV-eC-ccv" id="ekV-Hh-ZZd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q5W-fQ-9rH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -663,26 +671,35 @@ Feel free to adjust this if you’d like to include more details about your team
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
+                                            <action selector="startAction:" destination="zNM-ig-bjW" eventType="touchUpInside" id="fgD-d8-HyN"/>
                                             <segue destination="nKu-gE-p6W" kind="push" id="jWH-Hh-acg"/>
                                         </connections>
                                     </button>
                                 </subviews>
                             </stackView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="5cb-cF-0vg">
+                                <rect key="frame" x="416" y="186.66666666666666" width="20" height="20"/>
+                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="pGm-Bt-hFf"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="ZQT-4D-J0F" firstAttribute="top" secondItem="dZR-b7-zUP" secondAttribute="top" id="4xh-03-TZQ"/>
+                            <constraint firstItem="5cb-cF-0vg" firstAttribute="centerY" secondItem="dZR-b7-zUP" secondAttribute="centerY" id="HOK-TP-oWJ"/>
                             <constraint firstItem="ZQT-4D-J0F" firstAttribute="leading" secondItem="dZR-b7-zUP" secondAttribute="leading" id="Kcc-Yr-UWf"/>
                             <constraint firstAttribute="bottom" secondItem="ZQT-4D-J0F" secondAttribute="bottom" id="Lyd-Ue-XAg"/>
                             <constraint firstItem="NPh-tz-Ysz" firstAttribute="width" secondItem="dZR-b7-zUP" secondAttribute="width" multiplier="0.8" id="Yi3-Ia-pbK"/>
                             <constraint firstItem="NPh-tz-Ysz" firstAttribute="centerY" secondItem="dZR-b7-zUP" secondAttribute="centerY" id="cgW-Zi-erN"/>
                             <constraint firstItem="NPh-tz-Ysz" firstAttribute="height" secondItem="dZR-b7-zUP" secondAttribute="height" multiplier="0.8" id="l5I-Os-nTj"/>
                             <constraint firstAttribute="trailing" secondItem="ZQT-4D-J0F" secondAttribute="trailing" id="nPl-rT-XiU"/>
+                            <constraint firstItem="5cb-cF-0vg" firstAttribute="centerX" secondItem="dZR-b7-zUP" secondAttribute="centerX" id="wai-xX-hmr"/>
                             <constraint firstItem="NPh-tz-Ysz" firstAttribute="centerX" secondItem="dZR-b7-zUP" secondAttribute="centerX" id="wzc-DW-3TJ"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="FWv-Fi-Lb2"/>
+                    <connections>
+                        <outlet property="aceCctivityIndicator" destination="5cb-cF-0vg" id="CtF-ct-sM5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cLf-Im-Lef" sceneMemberID="firstResponder"/>
             </objects>
@@ -1093,7 +1110,7 @@ Feel free to adjust this if you’d like to include more details about your team
                                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rmZ-Q7-gOO">
                                                 <rect key="frame" x="0.0" y="0.0" width="177.33333333333334" height="348"/>
                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Rip-Ip-IF8">
-                                                    <rect key="frame" x="0.0" y="0.0" width="177.33333333333334" height="348"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="177" height="348"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Qe2-xd-TjC">
