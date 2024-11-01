@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57782BB73B07416B06F64DA3 /* Pods_AceFusion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B22C85EAA159739057AC3F3 /* Pods_AceFusion.framework */; };
+		FFC45EE12CD4C16B0063FD90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFC45ED82CD4C16B0063FD90 /* Assets.xcassets */; };
+		FFC45EE32CD4C16B0063FD90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFC45EDB2CD4C16B0063FD90 /* LaunchScreen.storyboard */; };
+		FFC45EE42CD4C16B0063FD90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFC45EDD2CD4C16B0063FD90 /* Main.storyboard */; };
+		FFC45EE52CD4C16B0063FD90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC45ED72CD4C16B0063FD90 /* AppDelegate.swift */; };
+		FFC45EE62CD4C16B0063FD90 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC45EDE2CD4C16B0063FD90 /* SceneDelegate.swift */; };
+		FFC45EE72CD4C16B0063FD90 /* AceFusionHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC45EDF2CD4C16B0063FD90 /* AceFusionHomeViewController.swift */; };
+		FFC45EE92CD4C2E90063FD90 /* AceFusionAboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC45EE82CD4C2E80063FD90 /* AceFusionAboutViewController.swift */; };
+		FFC45EEB2CD4C3000063FD90 /* AceFusionBigCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC45EEA2CD4C2FF0063FD90 /* AceFusionBigCardViewController.swift */; };
+		FFC45EED2CD4C3100063FD90 /* AceFusionCardMatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC45EEC2CD4C30F0063FD90 /* AceFusionCardMatchViewController.swift */; };
+		FFC45EEF2CD4C3220063FD90 /* AceFusionCardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC45EEE2CD4C3220063FD90 /* AceFusionCardCollectionViewCell.swift */; };
+		FFC45EF12CD4C33C0063FD90 /* AceFusionFeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC45EF02CD4C33B0063FD90 /* AceFusionFeedbackViewController.swift */; };
+		FFC45EF32CD4C34E0063FD90 /* AceFusionRateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC45EF22CD4C34D0063FD90 /* AceFusionRateViewController.swift */; };
+		FFC45EF52CD4C3630063FD90 /* AceFusionSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC45EF42CD4C3620063FD90 /* AceFusionSelectViewController.swift */; };
+		FFC45EF72CD4C3750063FD90 /* AceFusionSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC45EF62CD4C3740063FD90 /* AceFusionSettingViewController.swift */; };
+		FFC45EF92CD4C38F0063FD90 /* Untitled.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC45EF82CD4C38E0063FD90 /* Untitled.swift */; };
+		FFC45EFB2CD4C3A10063FD90 /* Extentsion.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC45EFA2CD4C39B0063FD90 /* Extentsion.swift */; };
+		FFC45EFD2CD4C3BE0063FD90 /* AceFusionCustomCornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC45EFC2CD4C3BD0063FD90 /* AceFusionCustomCornerView.swift */; };
+		FFC45EFF2CD4CA0C0063FD90 /* AceFusionPolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC45EFE2CD4CA0C0063FD90 /* AceFusionPolicyViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8B22C85EAA159739057AC3F3 /* Pods_AceFusion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AceFusion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98C54BFDAC857BE335A756E9 /* Pods-AceFusion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AceFusion.release.xcconfig"; path = "Target Support Files/Pods-AceFusion/Pods-AceFusion.release.xcconfig"; sourceTree = "<group>"; };
+		D922BFD25322DD9054841C83 /* Pods-AceFusion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AceFusion.debug.xcconfig"; path = "Target Support Files/Pods-AceFusion/Pods-AceFusion.debug.xcconfig"; sourceTree = "<group>"; };
+		FFC45EBF2CD4C1540063FD90 /* AceFusion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AceFusion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFC45ED72CD4C16B0063FD90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFC45ED82CD4C16B0063FD90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFC45ED92CD4C16B0063FD90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFC45EDA2CD4C16B0063FD90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFC45EDC2CD4C16B0063FD90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFC45EDE2CD4C16B0063FD90 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FFC45EDF2CD4C16B0063FD90 /* AceFusionHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AceFusionHomeViewController.swift; sourceTree = "<group>"; };
+		FFC45EE82CD4C2E80063FD90 /* AceFusionAboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AceFusionAboutViewController.swift; sourceTree = "<group>"; };
+		FFC45EEA2CD4C2FF0063FD90 /* AceFusionBigCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AceFusionBigCardViewController.swift; sourceTree = "<group>"; };
+		FFC45EEC2CD4C30F0063FD90 /* AceFusionCardMatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AceFusionCardMatchViewController.swift; sourceTree = "<group>"; };
+		FFC45EEE2CD4C3220063FD90 /* AceFusionCardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AceFusionCardCollectionViewCell.swift; sourceTree = "<group>"; };
+		FFC45EF02CD4C33B0063FD90 /* AceFusionFeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AceFusionFeedbackViewController.swift; sourceTree = "<group>"; };
+		FFC45EF22CD4C34D0063FD90 /* AceFusionRateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AceFusionRateViewController.swift; sourceTree = "<group>"; };
+		FFC45EF42CD4C3620063FD90 /* AceFusionSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AceFusionSelectViewController.swift; sourceTree = "<group>"; };
+		FFC45EF62CD4C3740063FD90 /* AceFusionSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AceFusionSettingViewController.swift; sourceTree = "<group>"; };
+		FFC45EF82CD4C38E0063FD90 /* Untitled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Untitled.swift; sourceTree = "<group>"; };
+		FFC45EFA2CD4C39B0063FD90 /* Extentsion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentsion.swift; sourceTree = "<group>"; };
+		FFC45EFC2CD4C3BD0063FD90 /* AceFusionCustomCornerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AceFusionCustomCornerView.swift; sourceTree = "<group>"; };
+		FFC45EFE2CD4CA0C0063FD90 /* AceFusionPolicyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AceFusionPolicyViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFC45EBC2CD4C1540063FD90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57782BB73B07416B06F64DA3 /* Pods_AceFusion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A6290E561F0414AD0C994BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D922BFD25322DD9054841C83 /* Pods-AceFusion.debug.xcconfig */,
+				98C54BFDAC857BE335A756E9 /* Pods-AceFusion.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		56DB01E88752B376A8A85B0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B22C85EAA159739057AC3F3 /* Pods_AceFusion.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFC45EB62CD4C1540063FD90 = {
+			isa = PBXGroup;
+			children = (
+				FFC45EE02CD4C16B0063FD90 /* AceFusion */,
+				FFC45EC02CD4C1540063FD90 /* Products */,
+				4A6290E561F0414AD0C994BE /* Pods */,
+				56DB01E88752B376A8A85B0C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FFC45EC02CD4C1540063FD90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFC45EBF2CD4C1540063FD90 /* AceFusion.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFC45EE02CD4C16B0063FD90 /* AceFusion */ = {
+			isa = PBXGroup;
+			children = (
+				FFC45ED72CD4C16B0063FD90 /* AppDelegate.swift */,
+				FFC45ED82CD4C16B0063FD90 /* Assets.xcassets */,
+				FFC45ED92CD4C16B0063FD90 /* Info.plist */,
+				FFC45EDB2CD4C16B0063FD90 /* LaunchScreen.storyboard */,
+				FFC45EDD2CD4C16B0063FD90 /* Main.storyboard */,
+				FFC45EDE2CD4C16B0063FD90 /* SceneDelegate.swift */,
+				FFC45EDF2CD4C16B0063FD90 /* AceFusionHomeViewController.swift */,
+				FFC45EFE2CD4CA0C0063FD90 /* AceFusionPolicyViewController.swift */,
+				FFC45EEA2CD4C2FF0063FD90 /* AceFusionBigCardViewController.swift */,
+				FFC45EE82CD4C2E80063FD90 /* AceFusionAboutViewController.swift */,
+				FFC45EEC2CD4C30F0063FD90 /* AceFusionCardMatchViewController.swift */,
+				FFC45EEE2CD4C3220063FD90 /* AceFusionCardCollectionViewCell.swift */,
+				FFC45EF02CD4C33B0063FD90 /* AceFusionFeedbackViewController.swift */,
+				FFC45EF22CD4C34D0063FD90 /* AceFusionRateViewController.swift */,
+				FFC45EF42CD4C3620063FD90 /* AceFusionSelectViewController.swift */,
+				FFC45EF62CD4C3740063FD90 /* AceFusionSettingViewController.swift */,
+				FFC45EF82CD4C38E0063FD90 /* Untitled.swift */,
+				FFC45EFA2CD4C39B0063FD90 /* Extentsion.swift */,
+				FFC45EFC2CD4C3BD0063FD90 /* AceFusionCustomCornerView.swift */,
+			);
+			path = AceFusion;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFC45EBE2CD4C1540063FD90 /* AceFusion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFC45ED22CD4C1550063FD90 /* Build configuration list for PBXNativeTarget "AceFusion" */;
+			buildPhases = (
+				9731224126491AAF93491464 /* [CP] Check Pods Manifest.lock */,
+				FFC45EBB2CD4C1540063FD90 /* Sources */,
+				FFC45EBC2CD4C1540063FD90 /* Frameworks */,
+				FFC45EBD2CD4C1540063FD90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AceFusion;
+			productName = AceFusion;
+			productReference = FFC45EBF2CD4C1540063FD90 /* AceFusion.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFC45EB72CD4C1540063FD90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					FFC45EBE2CD4C1540063FD90 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = FFC45EBA2CD4C1540063FD90 /* Build configuration list for PBXProject "AceFusion" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFC45EB62CD4C1540063FD90;
+			productRefGroup = FFC45EC02CD4C1540063FD90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFC45EBE2CD4C1540063FD90 /* AceFusion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFC45EBD2CD4C1540063FD90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFC45EE12CD4C16B0063FD90 /* Assets.xcassets in Resources */,
+				FFC45EE32CD4C16B0063FD90 /* LaunchScreen.storyboard in Resources */,
+				FFC45EE42CD4C16B0063FD90 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9731224126491AAF93491464 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AceFusion-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFC45EBB2CD4C1540063FD90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFC45EED2CD4C3100063FD90 /* AceFusionCardMatchViewController.swift in Sources */,
+				FFC45EFB2CD4C3A10063FD90 /* Extentsion.swift in Sources */,
+				FFC45EF72CD4C3750063FD90 /* AceFusionSettingViewController.swift in Sources */,
+				FFC45EE52CD4C16B0063FD90 /* AppDelegate.swift in Sources */,
+				FFC45EE62CD4C16B0063FD90 /* SceneDelegate.swift in Sources */,
+				FFC45EE92CD4C2E90063FD90 /* AceFusionAboutViewController.swift in Sources */,
+				FFC45EEF2CD4C3220063FD90 /* AceFusionCardCollectionViewCell.swift in Sources */,
+				FFC45EF92CD4C38F0063FD90 /* Untitled.swift in Sources */,
+				FFC45EFD2CD4C3BE0063FD90 /* AceFusionCustomCornerView.swift in Sources */,
+				FFC45EFF2CD4CA0C0063FD90 /* AceFusionPolicyViewController.swift in Sources */,
+				FFC45EF52CD4C3630063FD90 /* AceFusionSelectViewController.swift in Sources */,
+				FFC45EF32CD4C34E0063FD90 /* AceFusionRateViewController.swift in Sources */,
+				FFC45EE72CD4C16B0063FD90 /* AceFusionHomeViewController.swift in Sources */,
+				FFC45EF12CD4C33C0063FD90 /* AceFusionFeedbackViewController.swift in Sources */,
+				FFC45EEB2CD4C3000063FD90 /* AceFusionBigCardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FFC45EDB2CD4C16B0063FD90 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFC45EDA2CD4C16B0063FD90 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FFC45EDD2CD4C16B0063FD90 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFC45EDC2CD4C16B0063FD90 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFC45ED32CD4C1550063FD90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D922BFD25322DD9054841C83 /* Pods-AceFusion.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AceFusion/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Ace Fusion";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AceFusion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FFC45ED42CD4C1550063FD90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98C54BFDAC857BE335A756E9 /* Pods-AceFusion.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AceFusion/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Ace Fusion";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AceFusion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FFC45ED52CD4C1550063FD90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFC45ED62CD4C1550063FD90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFC45EBA2CD4C1540063FD90 /* Build configuration list for PBXProject "AceFusion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFC45ED52CD4C1550063FD90 /* Debug */,
+				FFC45ED62CD4C1550063FD90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFC45ED22CD4C1550063FD90 /* Build configuration list for PBXNativeTarget "AceFusion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFC45ED32CD4C1550063FD90 /* Debug */,
+				FFC45ED42CD4C1550063FD90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFC45EB72CD4C1540063FD90 /* Project object */;
+}
