@@ -32,7 +32,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Called when the scene has moved from an inactive state to an active state.
         // Use this method to restart any tasks that were paused (or not yet started) when the scene was inactive.
         Adjust.trackSubsessionStart()
-        DispatchQueue.global().asyncAfter(deadline: .now() + 0.4) {
+        DispatchQueue.global().asyncAfter(deadline: .now() + 0.6) {
             if #available(iOS 14, *) {
                 ATTrackingManager.requestTrackingAuthorization { status in
                 }

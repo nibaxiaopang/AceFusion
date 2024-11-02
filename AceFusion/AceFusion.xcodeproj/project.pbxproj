@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		57782BB73B07416B06F64DA3 /* Pods_AceFusion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B22C85EAA159739057AC3F3 /* Pods_AceFusion.framework */; };
+		FF7752352CD5DD63008E0708 /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7752342CD5DD63008E0708 /* AppTrackingTransparency.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		FF7752372CD5DD69008E0708 /* AdServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7752362CD5DD69008E0708 /* AdServices.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		FF7752392CD5DD72008E0708 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7752382CD5DD72008E0708 /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		FFC45EE12CD4C16B0063FD90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFC45ED82CD4C16B0063FD90 /* Assets.xcassets */; };
 		FFC45EE32CD4C16B0063FD90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFC45EDB2CD4C16B0063FD90 /* LaunchScreen.storyboard */; };
 		FFC45EE42CD4C16B0063FD90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFC45EDD2CD4C16B0063FD90 /* Main.storyboard */; };
@@ -33,6 +36,9 @@
 		8B22C85EAA159739057AC3F3 /* Pods_AceFusion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AceFusion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98C54BFDAC857BE335A756E9 /* Pods-AceFusion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AceFusion.release.xcconfig"; path = "Target Support Files/Pods-AceFusion/Pods-AceFusion.release.xcconfig"; sourceTree = "<group>"; };
 		D922BFD25322DD9054841C83 /* Pods-AceFusion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AceFusion.debug.xcconfig"; path = "Target Support Files/Pods-AceFusion/Pods-AceFusion.debug.xcconfig"; sourceTree = "<group>"; };
+		FF7752342CD5DD63008E0708 /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
+		FF7752362CD5DD69008E0708 /* AdServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdServices.framework; path = System/Library/Frameworks/AdServices.framework; sourceTree = SDKROOT; };
+		FF7752382CD5DD72008E0708 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		FFC45EBF2CD4C1540063FD90 /* AceFusion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AceFusion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFC45ED72CD4C16B0063FD90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFC45ED82CD4C16B0063FD90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -64,6 +70,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				57782BB73B07416B06F64DA3 /* Pods_AceFusion.framework in Frameworks */,
+				FF7752392CD5DD72008E0708 /* AdSupport.framework in Frameworks */,
+				FF7752352CD5DD63008E0708 /* AppTrackingTransparency.framework in Frameworks */,
+				FF7752372CD5DD69008E0708 /* AdServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +91,9 @@
 		56DB01E88752B376A8A85B0C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FF7752382CD5DD72008E0708 /* AdSupport.framework */,
+				FF7752362CD5DD69008E0708 /* AdServices.framework */,
+				FF7752342CD5DD63008E0708 /* AppTrackingTransparency.framework */,
 				8B22C85EAA159739057AC3F3 /* Pods_AceFusion.framework */,
 			);
 			name = Frameworks;
@@ -299,7 +311,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AceFusion/Info.plist;
@@ -336,7 +348,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AceFusion/Info.plist;
